@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /202006_study
+exclude: ['README.md']
