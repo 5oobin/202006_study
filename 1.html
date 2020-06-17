@@ -3,9 +3,42 @@
 <head>
   <title>home</title>
   <meta charset="utf-8">
+    <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+  </style>
 </head>
 <body>
 <h1><a href="index.html">HOME</a></h1>
+<div id="grid">
   <ol>
     <li><a href="1.html">지금 어디에 있나요?</a></li>
     <li><a href="2.html">지금 무슨 업무를 하고 있나요?</a></li>
@@ -19,7 +52,10 @@
     <li><a href="10.html">지금 기분이 어떤가요?</a></li>
     <li><a href="11.html">오늘 남은 시간 동안의 계획은 무엇인가요?</a></li>
   </ol>
+  <div id="article">
   <h2>1. 지금 어디에 있나요?</h2>
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTF-o6gjeNrrSV7WE_eyKw3vT1fk3b3YHl1KJjI6mMc5EfGcfPM7IChlQ96JaNc-dFkrorgzcDxqSB/pubhtml?gid=811894139&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+ </div>
+ </div>
 </body>
 </html>
